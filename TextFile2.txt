@@ -1,0 +1,36 @@
+9.Gün
+Çok katmanlý mimari
+code refactoring //kodun iyileþtirilmesi iþlemleri yapýldý
+Core Katmaný oluþturup Projeyi Generic Yapýya taþýndý
+
+Core katmanýna yazýlan kodlar bundan sonraki geliþtirilecek bütün projelerde kullanýlabilir
+
+-----------------------------------------
+10.Gün
+*Core katmanýnda Results yapýlandýrmasý yapýldý.
+  Core katmanýna Utilities klasörü altýna Results klasörü açýldý
+  Daha önce geliþtirdiðiniz tüm Business sýnýflarý bu yapýya göre refactor (kodu iyileþtirme) yapýldý
+    
+------------------------------------------- 
+11.Gün
+WebAPI katmanýný kuruldu.
+Business katmanýndaki tüm servislerin Api karþýlýðýný yazýldý.
+Postman'de test edildi.
+
+-------------------------------------------
+12.Gün
+AOP yapýsýný oluþturuldu.
+IoC Containerlardan--> Autofac yapýsý kullanýldý.
+
+-------------------------------------------
+13.Gün
+BusinessRules yapýsýný oluþturuldu.Polimorfizm uygulandý.
+Ýþ parçacýklarý ayrý metot olarak yazdýldý. Oluþturduðumuz Extensions metotda parametre olarak kurallarýmýz verilip iþ parçacýklarý çalýþtýrýldý.
+
+-------------------------------------------
+14.Gün
+JWT ile Authorization iþlemi yapýldý.
+
+-------------------------------------------
+15.Gün
+Cache, Transaction ve Performance iþlemleri yapýldý
